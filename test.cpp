@@ -5,7 +5,7 @@
 #include "stack.hpp"
 
 using namespace std;
-const int StackSize = 10000000;
+const int StackSize = 100000;
 
 int testStackDestructor();
 int testStack();
