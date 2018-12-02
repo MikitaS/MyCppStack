@@ -17,7 +17,7 @@ private:
 	int amount;
 };
 
-class Stack : public StackElement
+class Stack
 {
 public:
 	Stack();
