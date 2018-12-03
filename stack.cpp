@@ -96,6 +96,8 @@ int Stack::pop()
 
 Stack & Stack::operator = (Stack const & stack)
 {
+	if(&stack == this)
+		return *this;
 	Stack newstack;
 	StackElement * prev = stack.last->take();
 	
